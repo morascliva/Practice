@@ -1,0 +1,25 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class HelloWorld {
+    public static void main(String[] args) {
+        String st="radar";
+        
+     int start = 0;
+     int end=st.length()-1;
+     
+     
+     while(start<=end){
+    if(st.charAt(start)==st.charAt(end)){
+        start++;
+        end--;
+    }
+    else
+    {
+        System.out.println(st +" is not a palindrome");
+    }
+   
+     } System.out.println(st +" is a palindrome");
+     
+    }
+}
