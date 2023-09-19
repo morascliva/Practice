@@ -1,0 +1,18 @@
+//
+
+import java.util.Scanner;
+class HelloWorld {
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        
+        System.out.println("Enter the first String");
+        String stra =sc.nextLine();
+        
+        System.out.println("Enter the second String");
+        String strb =sc.nextLine();
+       
+        String strc=stra+strb;
+        System.out.println(strc);
+    
+    }
+}
