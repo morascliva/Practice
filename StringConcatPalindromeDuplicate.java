@@ -62,3 +62,11 @@ class HelloWorld {
     }
 
 }
+
+
+//Output
+Enter the first String
+cliva
+Enter the second String
+rhea
+clivarheanooo it is not palindromeclivarhe
